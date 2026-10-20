@@ -42,7 +42,7 @@ const faqs = [
 function Index() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [openFaq, setOpenFaq] = useState<number | null>(0);
-  const contact = "mailto:adcreatives05@gmail.com?subject=Quero%20saber%20mais%20sobre%20o%20m%C3%A9todo%20IA%20Sem%20Limites";
+  const contact = "https://checkout.escalepay.com/1150588";
   const closeMenu = () => setMenuOpen(false);
 
   return (
@@ -152,7 +152,7 @@ function Index() {
       <footer className="bg-white">
         <div className="mx-auto flex max-w-7xl flex-col gap-6 px-5 py-9 sm:flex-row sm:items-center sm:justify-between lg:px-8">
           <a href="#inicio" className="flex items-center gap-3"><span className="flex h-9 w-9 items-center justify-center rounded-xl bg-blue-600 text-white"><WandSparkles size={19} /></span><span className="font-black tracking-tight">IA <span className="text-blue-600">SEM LIMITES</span></span></a>
-          <p className="text-sm text-slate-500">Dúvidas? <a className="font-semibold text-blue-600 hover:underline" href="mailto:adcreatives05@gmail.com">adcreatives05@gmail.com</a></p>
+          <p className="text-sm text-slate-500">Dúvidas? <a className="font-semibold text-blue-600 hover:underline" href="https://checkout.escalepay.com/1150588">adcreatives05@gmail.com</a></p>
           <p className="text-xs text-slate-400">© {new Date().getFullYear()} IA Sem Limites. Todos os direitos reservados.</p>
         </div>
         <div className="border-t border-slate-100 px-5 py-4 text-center text-xs leading-5 text-slate-400">As marcas mencionadas pertencem aos respectivos proprietários. Este projecto é independente e não representa nem é afiliado oficialmente a essas empresas. Disponibilidade, preços e funcionalidades podem mudar.</div>
