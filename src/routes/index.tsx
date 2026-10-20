@@ -2,7 +2,7 @@ import { useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import {
   ArrowDown, ArrowRight, Check, ChevronDown, CircleHelp, Clock3, Code2,
-  Compass, GraduationCap, Menu, MessageCircle, ShieldCheck, Sparkles, WandSparkles, X, Zap,
+  Compass, GraduationCap, Menu, ShieldCheck, Sparkles, WandSparkles, X, Zap,
 } from "lucide-react";
 
 export const Route = createFileRoute("/")({
