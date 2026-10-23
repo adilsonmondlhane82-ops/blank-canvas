@@ -1,8 +1,8 @@
 import { useState, type FormEvent } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import {
-  ArrowDown, ArrowRight, Check, ChevronDown, CircleHelp, Clock3,
-  MessageCircle, Menu, ShieldCheck, Sparkles, WandSparkles, X, Zap,
+  ArrowDown, ArrowRight, ChevronDown, CircleHelp,
+  MessageCircle, Menu, ShieldCheck, Sparkles, X, Zap,
   PlayCircle, Users, Infinity as InfinityIcon, Send, MonitorSmartphone,
 } from "lucide-react";
 
