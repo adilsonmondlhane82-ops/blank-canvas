@@ -135,7 +135,7 @@ function Index() {
           <div className="mt-12 grid gap-4 md:grid-cols-4">
             {[{n:"01",title:"Faz a compra",desc:"Clica no botão e conclui o pagamento de 346 MT no checkout."},{n:"02",title:"Recebe os materiais",desc:"Após a confirmação, consulta as instruções e os vídeos que receberás."},{n:"03",title:"Segue os vídeos",desc:"Aplica a extensão no navegador compatível, seguindo cada passo indicado."},{n:"04",title:"Entra no grupo",desc:"Acede ao grupo disponibilizado para acompanhares as atualizações publicadas."}].map((step) => <article key={step.n} className="relative rounded-2xl border border-white/10 bg-white/[.035] p-6"><span className="text-sm font-black tracking-widest text-fuchsia-300">{step.n}</span><h3 className="mt-4 text-lg font-extrabold">{step.title}</h3><p className="mt-2 text-sm leading-6 text-slate-400">{step.desc}</p></article>)}
           </div>
-          <div className="mx-auto mt-8 flex max-w-3xl gap-3 rounded-2xl border border-amber-300/20 bg-amber-200/[.05] p-4 text-sm leading-6 text-amber-100/90"><CircleHelp className="mt-0.5 shrink-0 text-amber-300" size={20}/><p><strong>Importante:</strong> segue os vídeos pela ordem indicada. depois da compra, consulta os vídeos de instalação e segue os passos indicados para configurar o produto.</p></div>
+          <div className="mx-auto mt-8 flex max-w-3xl gap-3 rounded-2xl border border-amber-300/20 bg-amber-200/[.05] p-4 text-sm leading-6 text-amber-100/90"><CircleHelp className="mt-0.5 shrink-0 text-amber-300" size={20}/><p><strong>Importante:</strong> segue os vídeos pela ordem indicada. Depois da compra, consulta os vídeos de instalação e segue os passos indicados para configurar o produto.</p></div>
         </div>
       </section>
 
