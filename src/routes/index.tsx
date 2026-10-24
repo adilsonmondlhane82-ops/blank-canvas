@@ -1,7 +1,7 @@
 import { useState, type FormEvent } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import {
-  ArrowDown, ArrowRight, ChevronDown, CircleHelp,
+  ArrowDown, ArrowRight, Check, ChevronDown, CircleHelp,
   MessageCircle, Menu, ShieldCheck, Sparkles, X, Zap,
   PlayCircle, Users, Infinity as InfinityIcon, Send, MonitorSmartphone,
 } from "lucide-react";
@@ -9,8 +9,8 @@ import {
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Lovable Infinity Access | Acesso vitalício por 4.596 Kz" },
-      { name: "description", content: "Conhece o Lovable Infinity Access: pagamento único, tutoriais de instalação e acesso ao grupo de atualizações." },
+      { title: "Lovable Infinity Access | Acesso vitalício por 346 MT" },
+      { name: "description", content: "Conhece o Lovable Infinity Access em Moçambique: pagamento único de 346 MT, tutoriais de instalação e acesso ao grupo de atualizações." },
       { property: "og:title", content: "Lovable Infinity Access" },
       { property: "og:description", content: "Começa com instruções claras, vídeos de instalação e acompanhamento da comunidade." },
     ],
@@ -18,10 +18,10 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-const checkout = "https://checkout.escalepay.com/1973830";
-const whatsapp = "https://wa.me/258857365200?text=" + encodeURIComponent("Olá! Tenho interesse no Lovable Infinity Access por 4.596 Kz e gostaria de esclarecer algumas dúvidas.");
+const checkout = "https://pay.lojou.app/wdjj4";
+const whatsapp = "https://wa.me/258857365200?text=" + encodeURIComponent("Olá! Tenho interesse no Lovable Infinity Access por 346 MT e gostaria de esclarecer algumas dúvidas.");
 const faqs = [
-  { q: "O pagamento é mensal?", a: "Não. O preço apresentado é de 4.596 Kz, pago uma única vez pelo acesso ao produto adquirido." },
+  { q: "O pagamento é mensal?", a: "Não. O preço apresentado é de 346 MT, pago uma única vez pelo acesso ao produto adquirido." },
   { q: "Como recebo as instruções?", a: "Após a confirmação do pagamento, consulta as instruções e os vídeos de instalação que receberás." },
   { q: "Como configuro a extensão?", a: "Segue os vídeos pela ordem indicada e aplica os passos compatíveis com a versão do produto que recebeste." },
   { q: "Como acompanho as atualizações?", a: "Após a compra, receberás acesso ao grupo disponibilizado para acompanhar as atualizações publicadas." },
@@ -57,7 +57,7 @@ function Index() {
     <main className="min-h-screen overflow-hidden bg-[#080914] text-white">
       <div className="bg-gradient-to-r from-violet-700 via-fuchsia-700 to-indigo-700 px-4 py-2.5 text-center text-xs font-bold tracking-wide text-white sm:text-sm">
         <span className="inline-flex items-center gap-2"><Sparkles size={14} /> LOVABLE INFINITY ACCESS</span>
-        <span className="hidden sm:inline"> · Pagamento único de 4.596 Kz</span>
+        <span className="hidden sm:inline"> · Pagamento único de 346 MT</span>
       </div>
 
       <header className="sticky top-0 z-50 border-b border-white/10 bg-[#080914]/85 backdrop-blur-xl">
@@ -78,7 +78,7 @@ function Index() {
           <a className="rounded-xl px-3 py-3 hover:bg-white/5" href="#como-funciona" onClick={closeMenu}>Como funciona</a>
           <a className="rounded-xl px-3 py-3 hover:bg-white/5" href="#beneficios" onClick={closeMenu}>Benefícios</a>
           <a className="rounded-xl px-3 py-3 hover:bg-white/5" href="#faq" onClick={closeMenu}>Perguntas frequentes</a>
-          <a className="mt-2 rounded-xl bg-fuchsia-600 px-3 py-3 text-center text-white" href={checkout} onClick={closeMenu}>Comprar por 4.596 Kz</a>
+          <a className="mt-2 rounded-xl bg-fuchsia-600 px-3 py-3 text-center text-white" href={checkout} onClick={closeMenu}>Comprar por 346 MT</a>
         </nav>}
       </header>
 
@@ -110,7 +110,7 @@ function Index() {
                 <div className="rounded-2xl border border-white/10 bg-white/[.04] p-4"><PlayCircle className="text-violet-300" size={23}/><p className="mt-3 font-bold">Vídeos passo a passo</p><p className="mt-1 text-xs leading-5 text-slate-400">Segue as instruções pela ordem indicada.</p></div>
                 <div className="rounded-2xl border border-white/10 bg-white/[.04] p-4"><Users className="text-fuchsia-300" size={23}/><p className="mt-3 font-bold">Grupo de utilizadores</p><p className="mt-1 text-xs leading-5 text-slate-400">Acompanha as atualizações publicadas.</p></div>
               </div>
-              <div className="mt-4 flex items-center gap-3 rounded-2xl border border-emerald-300/15 bg-emerald-300/[.06] p-4"><ShieldCheck className="shrink-0 text-emerald-300" size={22}/><p className="text-xs leading-5 text-slate-300">Pagamento único de <strong className="text-white">4.596 Kz</strong>. Sem mensalidade deste produto.</p></div>
+              <div className="mt-4 flex items-center gap-3 rounded-2xl border border-emerald-300/15 bg-emerald-300/[.06] p-4"><ShieldCheck className="shrink-0 text-emerald-300" size={22}/><p className="text-xs leading-5 text-slate-300">Pagamento único de <strong className="text-white">346 MT</strong>. Sem mensalidade deste produto.</p></div>
             </div>
           </div>
         </div>
@@ -133,9 +133,9 @@ function Index() {
         <div className="mx-auto max-w-7xl px-5 lg:px-8">
           <div className="mx-auto max-w-2xl text-center"><span className="text-xs font-black uppercase tracking-[.22em] text-cyan-300">Começa em poucos passos</span><h2 className="mt-4 text-3xl font-black tracking-tight sm:text-4xl">Como funciona o acesso?</h2><p className="mt-4 leading-7 text-slate-400">Segue esta sequência para não perderes nenhuma etapa importante.</p></div>
           <div className="mt-12 grid gap-4 md:grid-cols-4">
-            {[{n:"01",title:"Faz a compra",desc:"Clica no botão e conclui o pagamento de 4.596 Kz no checkout."},{n:"02",title:"Recebe os materiais",desc:"Após a confirmação, consulta as instruções e os vídeos que receberás."},{n:"03",title:"Segue os vídeos",desc:"Aplica a extensão no navegador compatível, seguindo cada passo indicado."},{n:"04",title:"Entra no grupo",desc:"Acede ao grupo disponibilizado para acompanhares as atualizações publicadas."}].map((step) => <article key={step.n} className="relative rounded-2xl border border-white/10 bg-white/[.035] p-6"><span className="text-sm font-black tracking-widest text-fuchsia-300">{step.n}</span><h3 className="mt-4 text-lg font-extrabold">{step.title}</h3><p className="mt-2 text-sm leading-6 text-slate-400">{step.desc}</p></article>)}
+            {[{n:"01",title:"Faz a compra",desc:"Clica no botão e conclui o pagamento de 346 MT no checkout."},{n:"02",title:"Recebe os materiais",desc:"Após a confirmação, consulta as instruções e os vídeos que receberás."},{n:"03",title:"Segue os vídeos",desc:"Aplica a extensão no navegador compatível, seguindo cada passo indicado."},{n:"04",title:"Entra no grupo",desc:"Acede ao grupo disponibilizado para acompanhares as atualizações publicadas."}].map((step) => <article key={step.n} className="relative rounded-2xl border border-white/10 bg-white/[.035] p-6"><span className="text-sm font-black tracking-widest text-fuchsia-300">{step.n}</span><h3 className="mt-4 text-lg font-extrabold">{step.title}</h3><p className="mt-2 text-sm leading-6 text-slate-400">{step.desc}</p></article>)}
           </div>
-          <div className="mx-auto mt-8 flex max-w-3xl gap-3 rounded-2xl border border-amber-300/20 bg-amber-200/[.05] p-4 text-sm leading-6 text-amber-100/90"><CircleHelp className="mt-0.5 shrink-0 text-amber-300" size={20}/><p><strong>Importante:</strong> segue os vídeos pela ordem indicada. A compatibilidade e o funcionamento podem depender da versão do navegador, da extensão e dos serviços de terceiros.</p></div>
+          <div className="mx-auto mt-8 flex max-w-3xl gap-3 rounded-2xl border border-amber-300/20 bg-amber-200/[.05] p-4 text-sm leading-6 text-amber-100/90"><CircleHelp className="mt-0.5 shrink-0 text-amber-300" size={20}/><p><strong>Importante:</strong> segue os vídeos pela ordem indicada. depois da compra, consulta os vídeos de instalação e segue os passos indicados para configurar o produto.</p></div>
         </div>
       </section>
 
@@ -145,9 +145,26 @@ function Index() {
           <span className="relative inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[.06] px-4 py-2 text-xs font-bold text-fuchsia-200"><Sparkles size={14}/> PAGAMENTO ÚNICO</span>
           <h2 className="relative mt-5 text-3xl font-black tracking-tight sm:text-4xl">Dá o próximo passo no teu fluxo de trabalho.</h2>
           <p className="relative mx-auto mt-4 max-w-xl leading-7 text-slate-300">Recebe o material de instalação, segue os tutoriais e acompanha as atualizações do produto através do grupo.</p>
-          <div className="relative mt-7"><span className="text-5xl font-black tracking-tight sm:text-6xl">4.596 <span className="text-2xl text-fuchsia-200">Kz</span></span><p className="mt-2 text-sm text-slate-400">Pagamento único · Acesso vitalício ao produto adquirido</p></div>
+          <div className="relative mt-7"><span className="text-5xl font-black tracking-tight sm:text-6xl">346 <span className="text-2xl text-fuchsia-200">MT</span></span><p className="mt-2 text-sm text-slate-400">Pagamento único · Acesso vitalício ao produto adquirido</p></div>
           <a href={checkout} className="relative mt-8 inline-flex w-full items-center justify-center gap-2 rounded-full bg-gradient-to-r from-violet-600 to-fuchsia-600 px-7 py-4 font-extrabold text-white shadow-xl shadow-fuchsia-950/40 transition hover:-translate-y-1 hover:brightness-110 sm:w-auto">COMPRAR AGORA <ArrowRight size={18}/></a>
           <p className="relative mt-4 text-xs text-slate-500">Após o pagamento, segue as instruções de acesso recebidas.</p>
+        </div>
+      </section>
+
+
+      <section id="feedbacks-clientes" className="border-y border-white/10 bg-white/[.025] py-20 sm:py-24">
+        <div className="mx-auto max-w-7xl px-5 lg:px-8">
+          <div className="mx-auto max-w-2xl text-center">
+            <span className="text-xs font-black uppercase tracking-[.22em] text-fuchsia-300">Comunidade</span>
+            <h2 className="mt-4 text-3xl font-black tracking-tight sm:text-4xl">Mais de 743 utilizadores activos</h2>
+            <p className="mt-4 leading-7 text-slate-400">Conhece as opiniões partilhadas por utilizadores sobre a experiência com o produto.</p>
+          </div>
+          <div className="mt-12 grid gap-4 md:grid-cols-3">
+            <article className="rounded-2xl border border-white/10 bg-[#101122] p-6"><div className="text-amber-300" aria-label="5 estrelas">★★★★★</div><p className="mt-4 leading-7 text-slate-300">“A extensão ajudou-me a continuar os meus trabalhos, porque os créditos disponíveis limitavam os meus projectos.”</p><p className="mt-5 font-extrabold">Rogério Dumbo</p><p className="mt-1 text-xs text-slate-500">Feedback partilhado pelo cliente</p></article>
+            <article className="rounded-2xl border border-white/10 bg-[#101122] p-6"><div className="text-amber-300" aria-label="5 estrelas">★★★★★</div><p className="mt-4 leading-7 text-slate-300">“Antes não sabia bem como funcionava uma extensão, mas fiquei satisfeito por ter experimentado e conseguir avançar com os meus projectos.”</p><p className="mt-5 font-extrabold">Leandro Alexandre</p><p className="mt-1 text-xs text-slate-500">Feedback partilhado pelo cliente</p></article>
+            <article className="rounded-2xl border border-white/10 bg-[#101122] p-6"><div className="text-amber-300" aria-label="5 estrelas">★★★★★</div><p className="mt-4 leading-7 text-slate-300">“É prático e o apoio que recebi foi excelente.”</p><p className="mt-5 font-extrabold">Elisa Cumbe</p><p className="mt-1 text-xs text-slate-500">Feedback partilhado pela cliente</p></article>
+          </div>
+          <p className="mt-6 text-center text-xs leading-5 text-slate-500">Os comentários devem corresponder a experiências reais e ser publicados com autorização dos respectivos clientes.</p>
         </div>
       </section>
 
